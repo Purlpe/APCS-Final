@@ -1,0 +1,44 @@
+body {
+	background-image: url("../images/background.png");
+	background-position: 50% 30%;
+	color: white;
+}
+
+#footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+ #main {  
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #404040;
+    border-radius: 0 0 5px 5px;
+}
+
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: gray;
+} 
