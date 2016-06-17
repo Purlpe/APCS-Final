@@ -12,17 +12,31 @@ body {
   padding: 1rem;
 }
 
- #main {  
+ #top-row {  
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
     background-color: #404040;
     border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-color: #36F4A6;
+    margin-bottom: 20px;
+}
+
+#mid-row {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #404040;
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-color: magenta;
 }
 
 ul#menu {
     padding: 0;
     margin-bottom: 11px;
+    padding-top: 20px;
 }
 
 ul#menu li {
