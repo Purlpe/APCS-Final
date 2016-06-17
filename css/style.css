@@ -1,6 +1,6 @@
 body {
 	background-image: url("../images/background2.png");
-	/*background-position: 50% 30%;*/ 
+	/*background-position: 50% 30%; <---- Allow background.png to work properly*/ 
 	color: white;
 }
 
@@ -16,7 +16,7 @@ body {
     padding: 1rem;
 }
 
-#top-row {  
+#row-1 {  
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
@@ -27,7 +27,7 @@ body {
     border-color: #36F4A6;
 }
 
-#mid-row {
+#row-2 {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
@@ -37,14 +37,26 @@ body {
     border-style: solid;
     border-color: #ff99ff;
 }
-#bottom-row {
+#row-3 {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(54, 25, 25, .00004);
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-color: #80ffff;
+}
+
+#row-4 {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
     background-color: rgba(54, 25, 25, .00004);
     border-radius: 0 0 5px 5px;
     border-style: solid;
-    border-color: #80ffff;
+    border-color: #ffff66;
+
 }
 
 ul#menu {
