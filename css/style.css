@@ -1,6 +1,6 @@
 body {
-	background-image: url("../images/background.png");
-	background-position: 50% 30%;
+	background-image: url("../images/background2.png");
+	/*background-position: 50% 30%;*/ 
 	color: white;
 }
 
@@ -20,21 +20,31 @@ body {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
-    background-color: #404040;
+    margin-bottom: 10px;
+    background-color: rgba(54, 25, 25, .00004);
     border-radius: 0 0 5px 5px;
     border-style: solid;
     border-color: #36F4A6;
-    margin-bottom: 10px;
 }
 
 #mid-row {
     padding: 5px;
     padding-left:  15px;
     padding-right: 15px;
-    background-color: #404040;
+    margin-bottom: 10px;
+    background-color: rgba(54, 25, 25, .00004);
     border-radius: 0 0 5px 5px;
     border-style: solid;
-    border-color: gray;
+    border-color: #ff99ff;
+}
+#bottom-row {
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: rgba(54, 25, 25, .00004);
+    border-radius: 0 0 5px 5px;
+    border-style: solid;
+    border-color: #80ffff;
 }
 
 ul#menu {
